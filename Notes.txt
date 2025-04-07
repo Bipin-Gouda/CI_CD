@@ -1,0 +1,4 @@
+1. Added __init__.py in both root directory and tests so that pytest can easily navigate through the folders
+2. Added the sys os and path append in test_main.py to provide it the path of root to access the main.py file
+3. We keep the yml file in .github/workflows because GitHub Actions is designed to look only in that folder to find our workflow files.
+4. The test folder, file and function name must start with "test_"
